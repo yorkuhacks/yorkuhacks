@@ -1,2 +1,2 @@
 # YorkUHacks
-York University's first hackathon
+York University's first hackathon.
