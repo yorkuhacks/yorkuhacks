@@ -178,12 +178,12 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header.png);
     background-position: center;
-    -webkit-background-size: cover;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 
 header .header-content {
@@ -475,12 +475,33 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-#form-input,
-#form-button {
-  line-height: 50px;
-  font-size: 16px;
+.social-links {
+  margin-top: 2em;
 }
 
-#form-input {
-  height: 50px;
+.social-item {
+  display: inline-block;
+  margin: 0 1em;
+}
+.social-item img {
+  height: 2em;
+  width: 2em;
+}
+
+.social-item-link {
+  float: left;
+}
+.social-item-link img {
+  width: 2em;
+}
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #460005;
+}
+footer p {
+  color: #FFF;
+}
+footer .social-item {
+  margin: 0 0.5em;
 }
